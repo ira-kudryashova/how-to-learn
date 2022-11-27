@@ -102,7 +102,7 @@
   flex-direction: column;
   padding: 30px;
   width: 175px;
-  color: #2f80ed; 
+  color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -132,7 +132,7 @@
 
 .digits__title {
   /*а можно вместо вместо первых трех строк просто выставить text-align: center? */
-  display: flex; 
+  display: flex;
   flex-direction: row;
   justify-content: center;
   width: 60%;
@@ -251,7 +251,7 @@
 }
 
 .kaufman__title {
-  display: flex; 
+  display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 90px;
@@ -284,6 +284,12 @@
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
+  margin-right: 0;
+  color: white;
+}
+
+.table__text_theme_dark {
+  z-index: 2;
 }
 
 .kaufman__triangle {
@@ -295,18 +301,6 @@
   bottom: 90px;
   z-index: 1;
   background-image: url("../images/kaufman-triangle.svg");
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-.table__text_theme_dark {
-  z-index: 2;
 }
 
 .footer {
@@ -330,7 +324,7 @@
   margin-left: auto;
 }
 
-.footer__column_content_copyright {
+.footer__column_content-copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
@@ -350,7 +344,7 @@
   font-weight: normal;
 }
 
-.footer__column_content_info {
+.footer__column_content-info {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
@@ -381,7 +375,7 @@
   font-weight: normal;
 }
 
-.footer__column_content_social {
+.footer__column_content-social {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
