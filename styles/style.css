@@ -32,8 +32,8 @@
 }
 
 .header__title {
-  margin: 0;
-  padding: 0;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   display: flex;
   align-self: center;
   margin-left: 64px;
@@ -46,8 +46,8 @@
 }
 
 .header__subtitle {
-  margin: 0;
-  padding: 0;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -104,8 +104,8 @@
 }
 
 .two-columns__brief {
-  margin: 0;
-  padding: 0;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   display: flex;
   flex-direction: column;
   width: 175px;
@@ -121,8 +121,8 @@
 }
 
 .two-columns__paragraph {
-  margin: 0;
-  padding: 0;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -131,7 +131,7 @@
 }
 
 .two-columns__paragraph:last-of-type {
-  padding-bottom: 0;
+  padding-bottom: 0; /*сброс отступа 30px у последнего элемента*/
 }
 
 .two-columns__span-accent {
@@ -141,8 +141,8 @@
 }
 /*DIGITS*/
 .section-title {
-  margin: 0;
-  padding: 0;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -191,8 +191,8 @@
 }
 
 .table__heading {
-  margin: 0;
-  padding: 0;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   margin-top: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -214,12 +214,20 @@
   position: relative;
   min-height: 890px;
   background-color: #f2f2f2;
-  z-index: -1;
+}
+
+.feynman__main-illustration {
+  position: absolute;
+  left:0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
 }
 
 .feynman__title {
-  margin: 0;
-  padding: 0;
+  position: relative;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -231,13 +239,14 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  z-index: 1;
+  z-index: 2;
   color: #000000;
 }
 
 .feynman__subtitle {
-  margin: 0;
-  padding: 0;
+  position: relative;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -247,7 +256,7 @@
   font-size: 36px;
   font-weight: normal;
   color: #000000;
-  z-index: 1;
+  z-index: 2;
 }
 
 .feynman__link {
@@ -270,7 +279,6 @@
   bottom: 0;
   width: 867px;
   height: 637px;
-  z-index:-1;
 }
 
 .kaufman {
@@ -280,8 +288,8 @@
 }
 
 .section-title_theme_dark {
-  margin: 0;
-  padding: 0;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -293,6 +301,7 @@
   font-size: 60px;
   font-weight: 600;
   color: #ffffff;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -306,10 +315,11 @@
   font-size: 24px;
   font-weight: normal;
   color: #ffffff;
+  z-index: 2;
 }
 
 .table_theme_dark {
-  margin-bottom: 90px;
+  margin-bottom: 90px; /*не совсем поняла комментарий...в брифе есть нижний отступ 90px - точно его нужно удалять?*/
 }
 
 .table__cell_theme_dark {
@@ -324,6 +334,7 @@
   font-size: 24px;
   font-weight: 600;
   color: #ffffff;
+  z-index: 2;
 }
 
 .table__text_theme_dark {
@@ -395,8 +406,8 @@
 }
 
 .footer__column-heading {
-  margin: 0;
-  padding: 0;
+  margin: 0; /*сброс стандартных отступов*/
+  padding: 0; /*сброс стандартных отступов*/
   display: flex;
   margin-top: 0;
   line-height: 30px;
