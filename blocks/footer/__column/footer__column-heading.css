@@ -1,0 +1,9 @@
+.footer__column-heading {
+    margin: 0; /*сброс стандартных отступов*/
+    padding: 0; /*сброс стандартных отступов*/
+    display: flex;
+    margin-top: 0;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+  }

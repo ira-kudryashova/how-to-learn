@@ -1,0 +1,9 @@
+.header__link {
+    color: #2f80ed;
+    text-decoration: none;
+    transition: 1s ease; /*плавный переход при наведении на ссылку*/
+  }
+  
+  .header__link:hover {
+    opacity: 0.7; /*плавный переход при наведении на ссылку*/
+  }

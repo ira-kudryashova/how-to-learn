@@ -1,0 +1,13 @@
+.section-subtitle_theme_dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto 0 auto;
+    padding-top: 0;
+    width: 60%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+    z-index: 2;
+  }

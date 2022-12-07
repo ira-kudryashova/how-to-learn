@@ -1,0 +1,13 @@
+.two-columns__paragraph {
+    margin: 0; /*сброс стандартных отступов*/
+    padding: 0; /*сброс стандартных отступов*/
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #000000;
+    padding-bottom: 30px;
+  }
+
+  .two-columns__paragraph:last-of-type {
+    padding-bottom: 0; /*сброс отступа 30px у последнего элемента*/
+  }
