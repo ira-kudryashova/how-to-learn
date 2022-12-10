@@ -2,9 +2,9 @@
     position: relative;
     margin: 0; /*сброс стандартных отступов*/
     padding: 0; /*сброс стандартных отступов*/
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;*/
     text-align: center;
     margin-top: 100px;
     margin-left:auto;

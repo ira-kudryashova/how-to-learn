@@ -1,16 +1,18 @@
 .section-title_theme_dark {
     margin: 0; /*сброс стандартных отступов*/
     padding: 0; /*сброс стандартных отступов*/
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;*/
     margin-top: 90px;
-    width: 60%;
+    max-width: 60%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.15;
     font-size: 60px;
     font-weight: 600;
     color: #ffffff;
+    position:relative;
     z-index: 2;
   }
